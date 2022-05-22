@@ -104,7 +104,8 @@ form label {
 form select,
 form input {
   margin-bottom: 20px;
-  width: 65%;
+  width: 50%;
+  float: right;
 }
 
 form button {
@@ -130,7 +131,7 @@ footer p {
 
 /* -------  Media Query ------- */
 
-@media all and (min-width: 480px) {
+@media all and (min-width: 650px) {
   header {
     background-color: #ff385c;
     display: flex;
@@ -156,16 +157,17 @@ footer p {
 
   .vacation-form .item {
     display: flex block;
-    flex: 1 1 auto;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
 
-  .item label
-  , .item input 
+  .item label 
+  , .item input
   , .item select 
   , .item button{
     display: flex;
-    width: 100%
+    width: 100%;
+    flex: 1;
   }
 
   .grid-column {
