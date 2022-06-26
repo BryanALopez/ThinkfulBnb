@@ -2,8 +2,6 @@
 
 Thinkfulbnb is a vacation rental website that allows people to rent out their homes to people who are seeking short-term accommodations in that locale. Thinkfulbnb hosts rent out different kinds of properties, including single rooms, apartments, and unique living spaces such as yachts, houseboats, yurts, tiny houses, and even renovated medieval castles.
 
-For this assignment, you will implement Thinkfulbnb's landing page in HTML & CSS.
-
 ## Thinkfulbnb views
 
 The UX designer provided you with the following user interface mockups:
@@ -16,33 +14,19 @@ The UX designer provided you with the following user interface mockups:
 
 ![](images/Thinkfulbnb-desktop.png)
 
-### Existing files
-
-| File         | Description                                                             |
-| ------------ | ----------------------------------------------------------------------- |
-| `images/`    | A folder containing all the images used for the design.                 |
-| `index.html` | The starter HTML file. You will need to add your solution to this file. |
-| `style.css`  | The starter css file. You will need to add your solution to this file.  |
-
-You're encouraged to spend some time studying the provided files.
-
 ### Setup
 
 Use VSCode Live Server to launch the `index.html` page in your browser.
 
 ### Tasks
 
-For this assignment, you will be following a mobile-first development approach. To pass this assignment, you must complete the tasks detailed below.
+Follows a mobile-first development approach.
 
-You **should** use flexbox, and **not** floats, to achieve the desired layouts. The `.group`, `.item`, and `.item-double` classes are provided in the CSS file for your convenience, but it is not necessary to use them.
-
-You are **NOT** expected to match the designs pixel by pixel, as long as the required layout is satisfied.
-
-Edit the `index.html` and `style.css` as needed to achieve the following requirements:
+uses flexbox to achieve the desired layouts. The `.group`, `.item`, and `.item-double` classes are provided in the CSS file for convenience.
 
 #### Navigation
 
-- The logo should stack on top of the menu links, which are aligned horizontally, as follows:
+- The logo stacks on top of the menu links, which are aligned horizontally, as follows:
 
 ![Navigation mobile](./images/navigation-mobile.png)
 
